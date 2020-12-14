@@ -1,13 +1,14 @@
 ---
 name: Question Template
 about: 質問用のテンプレートです！
-title: Question Title
-labels: question
+title: 〇〇したい
+labels: 質問
 assignees: ''
 
 ---
 
 ## 何をしたいのか
+ここに質問内容を書いてください。
 AIZUの問題を解いている場合は解答のリンクも
 
 
