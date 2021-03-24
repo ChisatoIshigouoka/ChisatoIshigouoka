@@ -1,3 +1,5 @@
+# ファイル名を `quiz05.py` に変更してから解答してください．
+
     # Hello, World!
 import math, statistics
 
