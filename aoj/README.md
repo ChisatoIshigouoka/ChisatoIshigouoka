@@ -18,6 +18,41 @@
 [5]: https://tutorials.chainer.org/ja/tutorial.html
 
 
+## 課題の進め方
+
+1. このリポジトリをクローンする。
+1. 自分用のベースブランチを作成して移動する。ブランチ名は `<your name>/base` とする。ex: `yuji/base` .
+1. ブランチ `<your name>/base` をプッシュする。
+1. 課題を解く。<br>
+  4.1. 作業ブランチを作成して移動する。ブランチ名は `<your name>/<topic number>` とする。ex: `yuji/1` .<br>
+  4.2. 公式ドキュメントや参考資料を読む。<br>
+  4.3. AIZU ONLINE JUDGE (以下、AOJ) の問題文を読む。<br>
+  4.4. 解答を `AOJ` ディレクトリ内の該当するファイルに作成する。<br>
+  4.5. AOJの判定が [`AC`][6] となったら次へ進む。<br>
+1. 提出する。提出は A, B, C, D のように問題ごとにするのではなく、1, 2, ... のようにトピックごとにする。<br>
+  5.1. ブランチ `<your name>/<topic number>` からブランチ `<your name>/base` に向けてプルリクエストを作成する。<br>
+  5.2. プルリクエストのステータスが ❌ だった場合、コーディングスタイルを修正して再提出する。<br>
+  5.3. PGritでレビュワーにメンションしてレビュー依頼をする。<br>
+1. レビュワーの行動<br>
+  6.1. レビュワーは `Files changed` タブでレビューを行い、修正依頼を出す。
+  6.2. レビューが通ったら `<your name>/<topic number>` を `<your name>/base` にマージする。
+
+## 質問
+質問がある場合は [Question Template][7] の形式に従ってイシューを作成する。
+[記入例 #1][8]。
+この時、コードに以下のようにシンタックスハイライトが効いているかに注意すること。
+
+```python
+def f(a=1):
+    pass
+```
+
+
+[6]: https://onlinejudge.u-aizu.ac.jp/judges_replies
+[7]: https://github.com/shinonome-inc/Basic-Python/issues/new/choose
+[8]: https://github.com/shinonome-inc/Basic-Python/issues/1
+
+
 ## 課題
 [AIZU ONLINE JADGE プログラミング入門コース][1]
 
