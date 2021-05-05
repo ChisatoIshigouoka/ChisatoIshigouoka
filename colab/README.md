@@ -1,6 +1,8 @@
 # Numpy, Pandas　入門
 
 [Data Science Handbook][0] を参考にして進める。
+Python課題とは異なりSlack上でGoogle Colabのリンクを提出してもらいます。
+#dev_data_python のスプレッドシートにNumpyまたはPandasと記入し、リンクと共にレビュワーをメンションしてください。
 
 [svg]: https://colab.research.google.com/assets/colab-badge.svg
 
