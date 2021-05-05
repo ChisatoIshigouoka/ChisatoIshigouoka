@@ -32,7 +32,9 @@
 1. 提出する。提出は A, B, C, D のように問題ごとにするのではなく、1, 2, ... のようにトピックごとにする。<br>
   5.1. ブランチ `<your name>/<topic number>` からブランチ `<your name>/base` に向けてプルリクエストを作成する。<br>
   5.2. プルリクエストのステータスが ❌ だった場合、コーディングスタイルを修正して再提出する。<br>
-  5.3. PGritでレビュワーにメンションしてレビュー依頼をする。<br>
+  5.3. tani1108/azumi0717/masaya-code　の3人をreviewerに追加する。<br>
+  5.4. #dev_data_python にあるスプレッドシートに課題情報を記入する。<br>
+  5.5. #dev_data_python で1次2次のレビュワーをメンション <br>
 1. レビュワーの行動<br>
   6.1. レビュワーは `Files changed` タブでレビューを行い、修正依頼を出す。<br>
   6.2. レビューが通ったら `<your name>/<topic number>` を `<your name>/base` にマージする。
