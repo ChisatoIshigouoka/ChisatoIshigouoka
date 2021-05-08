@@ -1,5 +1,5 @@
 import math
-r=float(input())
-s=r ** 2 * math.pi
-l=2*r *math.pi
-print(s,l)
+s = lambda x: r ** 2 * math.pi
+l = lambda x:2 * r * math.pi
+r = float(input())
+print(f"{s(r):.6f} {l(r):.6f}")

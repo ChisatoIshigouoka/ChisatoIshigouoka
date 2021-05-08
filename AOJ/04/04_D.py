@@ -1,0 +1,5 @@
+a = list(map(int,input().split()))
+amin = lambda x:min(x)
+amax = lambda x:max(a)
+asum = lambda x:sum(a)
+print(amin(a),amax(a),asum(a))
