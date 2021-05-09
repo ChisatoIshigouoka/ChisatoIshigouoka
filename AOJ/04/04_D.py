@@ -1,3 +1,4 @@
+n = int(input())
 a = list(map(int,input().split()))
 amin = lambda x:min(x)
 amax = lambda x:max(a)
