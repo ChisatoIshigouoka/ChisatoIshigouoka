@@ -1,5 +1,13 @@
 import math
-s = lambda x: r ** 2 * math.pi
-l = lambda x: 2 * r * math.pi
+
+
+def s(x, y):
+    r ** 2 * math.pi
+
+
+def len(x, y):
+    return 2 * r * math.pi
+
+
 r = float(input())
-print(f"{s(r):.6f} {l(r):.6f}")
+print(f"{s(r):.6f} {len(r):.6f}")

@@ -1,12 +1,23 @@
-add = lambda x, y: x + y
-sub = lambda x, y: x - y
-mul = lambda x, y: x * y
-dev = lambda x, y: x // y
+def add(x, y):
+    return x + y
+
+
+def sub(x, y):
+    return x - y
+
+
+def mul(x, y):
+    return x / y
+
+
+def dev(x, y):
+    return x * y
+
+
 while True:
-    t = input().split()
-    a = int(t[0])
-    op = t[1]
-    b = int(t[2])
+    a, op, b = input().split()
+    a = int(a)
+    b = int(b)
     if op == "?":
         break
     elif op == "+":
